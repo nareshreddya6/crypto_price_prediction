@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# crypto_price_prediction
-=======
 Install requirements
 numpy
 pandas
@@ -22,6 +19,4 @@ The output contains metrics like
 2.percentage
 3.profit/loss if traded
 4.graph of actual prices vs predicted prices
->>>>>>> 15368566 (first commit)
-"# AI-crypto-price-prediction" 
-"# AI-crypto-price-prediction" 
+
