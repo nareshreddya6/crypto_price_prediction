@@ -3,10 +3,10 @@ import pandas as pd
 from models.model import variables
 import numpy as np
 import matplotlib.pyplot as plt
-
+import os
 # Initialize Binance client
-api_key = 'LbHBILQPXruQ1vnAXpvIiod3nmXYTlQZYTlnpLUQPkQFZ66mU0j5kwNI1mrgb6QL'
-api_secret = 'v5lns9HLw5PNhNI4SqaBNcQkIVjjgzaTYadXNpMWy0wJtABoGZPPCOS2htx9uegG'
+api_key = os.getenv("BINANCE_API_KEY")
+api_secret = os.getenv("BINANCE_API_SECRET")
 client = Client(api_key, api_secret)
 
 # Fetch historical price data for Bitcoin (BTCUSDT)
